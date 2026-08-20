@@ -1,6 +1,6 @@
 # backend-api/routers/job_analysis_full.py
 
-from fastapi import APIRouter, UploadFile, File, Form
+from fastapi import APIRouter, UploadFile, File, Form  
 from backend.services.job_analysis_service import JobAnalysisService
 import os
 import logging
